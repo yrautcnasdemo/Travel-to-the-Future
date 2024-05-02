@@ -1,66 +1,76 @@
 @font-face {
-  font-family: back-to-the-future;
-  src: url(/font/BackToTheFuture/BTTF.ttf);
+    font-family: back-to-the-future;
+    src: url(/font/BackToTheFuture/BTTF.ttf);
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 /*START HEADER*/
 /*NavBar*/
 header {
-  background-image: url(/images/header_image.jpg);
-  background-size: cover;
+    background-image: url(/images/header_image.jpg);
 }
 
 .search-bar {
-  border: none;
-  height: 30px;
-  border-radius: 20px;
-  margin-left: 100px;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 150px;
 }
 
 .nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  list-style-type: none;
-  gap: 30px;
-  margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 150px;
+    font-size: 20px;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #55555523;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #55555523;
 }
 
 /*presentation*/
-
-h1 {
-  font-family: back-to-the-future;
-  font-size: 50px;
-  width: 70vh;
-  text-align: center;
-  padding-top: 100px;
+.intro-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.titre-agence {
+    font-family: back-to-the-future;
+    font-size: 70px;
+    width: 70vh;
+    padding-top: 100px;
+    margin-left: 70px;
 }
 .arrowBTTF {
-  font-size: 70px;
+    font-size: 100px;
 }
 .desc-agence {
-  margin-top: 80px;
-  font-family: sans-serif;
-  font-weight: bold;
-  line-height: 20px;
-  width: 60vh;
-  padding-bottom: 600px;
+    margin-left: 115px;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 60vh;
+    padding-bottom: 220px;
+    font-size: 25px;
+    color: wheat;
 }
 /*END HEADER*/
 
