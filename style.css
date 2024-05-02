@@ -1,9 +1,18 @@
+@font-face {
+    font-family: back-to-the-future;
+    src: url(/font/BackToTheFuture/BTTF.ttf);
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+
+/*START HEADER*/
+/*NavBar*/
 header {
     background-image: url(/images/bf0e9ey8edc71.jpg);
 }
@@ -28,7 +37,25 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #55555523;
 }
+
+/*presentation*/
+
+h1 {
+    font-family: back-to-the-future;
+    font-size: 50px;
+    width: 70vh;
+    text-align: center;
+    padding-top: 100px;
+}
+.arrowBTTF {
+    font-size: 70px;
+}
+.desc-agence {
+    width: 70vh;
+}
+/*END HEADER*/
