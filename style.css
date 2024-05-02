@@ -172,6 +172,7 @@ START CSS VOYAGE
 .titre-voyage {
   text-align: center;
   padding: 2% 0%;
+  font-family: back-to-the-future;
 }
 /* 
 image and paragraphe 
@@ -183,12 +184,16 @@ image and paragraphe
 }
 .voyage-and-text > p {
   width: 50%;
-  background-color: #64c6d3;
+  background-color: rgba(100, 144, 211, 0.288);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
+  font-size: 1.2rem;
+}
+.image-principal {
+  border-radius: 20px;
 }
 /* 
 PICTURE VOYAGE 
@@ -202,6 +207,7 @@ PICTURE VOYAGE
 }
 .picture-voyage > img {
   box-shadow: 0 3px 20px rgba(173, 169, 169, 2);
+  border-radius: 20px;
 }
 /* 
 AVIS 
