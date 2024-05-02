@@ -15,6 +15,7 @@
 /*NavBar*/
 header {
     background-image: url(/images/bf0e9ey8edc71.jpg);
+    background-size: cover;
 }
 
 .search-bar {
@@ -56,6 +57,11 @@ h1 {
     font-size: 70px;
 }
 .desc-agence {
-    width: 70vh;
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+    width: 60vh;
+    padding-bottom: 600px;
 }
 /*END HEADER*/
