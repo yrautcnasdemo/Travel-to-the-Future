@@ -33,6 +33,10 @@ header {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav {
     font-family: sans-serif;
     font-weight: bold;
@@ -62,6 +66,7 @@ nav {
 .arrowBTTF {
     font-size: 100px;
 }
+
 .desc-agence {
     margin-left: 115px;
     margin-top: 80px;
@@ -73,6 +78,33 @@ nav {
     color: wheat;
 }
 /*END HEADER*/
+
+.cards-fav {
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    width: 120vh;
+    box-shadow: 5px 5px 5px rgba(80, 80, 80, 0.308);
+    background-color: #55555523;
+}
+.desc-cards-prime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.btn-cards {
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 132, 31);
+}
 
 /* 
 
