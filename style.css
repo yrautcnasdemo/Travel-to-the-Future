@@ -211,10 +211,12 @@ AVIS
   flex-direction: column;
   padding: 0% 20%;
   gap: 30px;
+  margin: auto;
 }
 .avis > p {
   background-color: #64c6d3;
-  height: 100px;
+  width: 90%;
+  height: auto;
   padding: 2%;
   border-radius: 20px;
 }
@@ -226,21 +228,28 @@ PRICE AND BUY
   padding: 1%;
   display: flex;
   justify-content: space-evenly;
-  gap: 20%;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
 }
 .price {
   background-color: #bc6e6e;
-  width: 15%;
+  width: 300px;
+  height: 100px;
   padding: 10px;
   border-radius: 20px;
 }
 .buy {
   background-color: #bc6e6e;
-  width: 15%;
+  width: 300px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+}
+.buy:hover {
+  cursor: pointer;
 }
 /* 
 
