@@ -72,6 +72,7 @@ nav {
   margin-left: 70px;
 }
 .arrowBTTF {
+  font-family: back-to-the-future;
   font-size: 100px;
 }
 
@@ -101,7 +102,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 200px;
+  gap: 100px;
 }
 
 .cards-prim {
@@ -146,6 +147,9 @@ nav {
 .cards {
   width: 512px;
   height: 512px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
+  margin-bottom: 50px;
 }
 
 .imgCards {
