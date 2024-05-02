@@ -2,11 +2,16 @@
   font-family: back-to-the-future;
   src: url(/font/BackToTheFuture/BTTF.ttf);
 }
+@font-face {
+  font-family: poppins-regular;
+  src: url(/font/poppins/poppins-regular.woff);
+}
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: poppins-regular;
 }
 
 /*START HEADER*/
@@ -122,6 +127,34 @@ footer {
   justify-content: space-around;
   background-color: #fff1e4;
   padding-top: 3%;
+  flex-wrap: wrap;
+}
+/* left side */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo-middle {
+  margin: auto;
+}
+figure > figcaption {
+  font-family: back-to-the-future;
+}
+/* middle side */
+.footer-middle {
+  text-align: center;
+}
+.footer-informations {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+/* right side */
+.footer-right {
+  text-align: center;
+}
+.footer-right-small-text {
+  font-size: 10px;
 }
 /* 
 
