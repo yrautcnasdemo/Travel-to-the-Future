@@ -3,3 +3,32 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header {
+    background-image: url(/images/bf0e9ey8edc71.jpg);
+}
+
+.search-bar {
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #55555523;
+}
