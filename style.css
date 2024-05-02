@@ -2,11 +2,16 @@
   font-family: back-to-the-future;
   src: url(/font/BackToTheFuture/BTTF.ttf);
 }
+@font-face {
+  font-family: poppins-regular;
+  src: url(/font/poppins/poppins-regular.woff);
+}
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: poppins-regular;
 }
 
 /*START HEADER*/
@@ -164,6 +169,34 @@ footer {
   justify-content: space-around;
   background-color: #fff1e4;
   padding-top: 3%;
+  flex-wrap: wrap;
+}
+/* left side */
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo-middle {
+  margin: auto;
+}
+figure > figcaption {
+  font-family: back-to-the-future;
+}
+/* middle side */
+.footer-middle {
+  text-align: center;
+}
+.footer-informations {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+/* right side */
+.footer-right {
+  text-align: center;
+}
+.footer-right-small-text {
+  font-size: 10px;
 }
 /* 
 
@@ -220,10 +253,12 @@ AVIS
   flex-direction: column;
   padding: 0% 20%;
   gap: 30px;
+  margin: auto;
 }
 .avis > p {
   background-color: #64c6d3;
-  height: 100px;
+  width: 90%;
+  height: auto;
   padding: 2%;
   border-radius: 20px;
 }
@@ -235,21 +270,28 @@ PRICE AND BUY
   padding: 1%;
   display: flex;
   justify-content: space-evenly;
-  gap: 20%;
+  flex-wrap: wrap;
+  height: auto;
+  width: auto;
 }
 .price {
   background-color: #bc6e6e;
-  width: 15%;
+  width: 300px;
+  height: 100px;
   padding: 10px;
   border-radius: 20px;
 }
 .buy {
   background-color: #bc6e6e;
-  width: 15%;
+  width: 300px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+}
+.buy:hover {
+  cursor: pointer;
 }
 /* 
 
