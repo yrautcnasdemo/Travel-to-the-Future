@@ -264,7 +264,7 @@ nav {
   border-radius: 20px 20px 0px 0px;
 }
 
-.description-cards{
+.description-cards {
   font-family: poppins-regular;
   display: flex;
   flex-direction: column;
@@ -276,13 +276,6 @@ nav {
   gap: 15px;
   text-align: center;
 }
-
-/* 
-
-css voyage 
-
-*/
-
 /* 
 
 START FOOTER  
@@ -341,7 +334,7 @@ START CSS VOYAGE
 
 */
 .background-section {
-  background-color: #fffbe9;
+  background-image: url("images/BackgroundLeftSideHRopa50.png");
 }
 .titre-voyage {
   text-align: center;
@@ -447,5 +440,116 @@ PRICE AND BUY
 /* 
 
 END CSS VOYAGE
+
+*/
+/* 
+
+START CSS AGENCE
+
+*/
+/* agence story */
+.histoire {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  gap: 30px;
+  line-height: 25px;
+  font-size: 20px;
+  padding: 2%;
+  border-radius: 20px;
+}
+.title-agence {
+  text-align: center;
+  padding-top: 3%;
+}
+/* why us */
+.why-us-container {
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.why-us-paragraphe {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  font-size: 20px;
+  gap: 20px;
+  padding-right: 5%;
+}
+.why-us-picture {
+  border-radius: 20px;
+}
+/* faq */
+.faq-container {
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.question-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  font-size: 20px;
+  gap: 20px;
+}
+.q-r {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 5%;
+}
+/* 
+
+END CSS AGENCE
+
+*/
+/* 
+
+START CSS FORMULAIRE
+
+*/
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  padding: 2% 0%;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 700px;
+  border-radius: 20px;
+  padding: 2%;
+  width: 80%;
+  margin: auto;
+  background-color: #b3b3b380;
+}
+legend {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: 1px rgb(192, 192, 192) solid;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: #f7f3f3fd;
+}
+/* 
+
+END CSS FORMULAIRE
 
 */
