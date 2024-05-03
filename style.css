@@ -182,7 +182,7 @@ nav {
   border-radius: 20px 20px 0px 0px;
 }
 
-.description-cards{
+.description-cards {
   font-family: poppins-regular;
   display: flex;
   flex-direction: column;
@@ -192,13 +192,6 @@ nav {
   gap: 15px;
   text-align: center;
 }
-
-/* 
-
-css voyage 
-
-*/
-
 /* 
 
 START FOOTER  
@@ -363,5 +356,25 @@ PRICE AND BUY
 /* 
 
 END CSS VOYAGE
+
+*/
+/* 
+
+START CSS AGENCE
+
+*/
+.histoire {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.title-agence {
+  text-align: center;
+}
+/* 
+
+END CSS AGENCE
 
 */
