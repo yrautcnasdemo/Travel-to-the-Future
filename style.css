@@ -212,7 +212,15 @@ END FOOTER
 */
 /*
 
+
+
+
+
 START CSS VOYAGE
+
+
+
+
 
 */
 .background-section {
@@ -224,12 +232,15 @@ START CSS VOYAGE
   font-family: back-to-the-future;
 }
 /* 
+
 image and paragraphe 
+
 */
 .voyage-and-text {
   display: flex;
   gap: 5%;
   padding: 0% 2%;
+  width: 100%;
 }
 .voyage-and-text > p {
   width: 50%;
@@ -240,12 +251,16 @@ image and paragraphe
   justify-content: center;
   flex-wrap: nowrap;
   font-size: 1.2rem;
+  line-height: 28px;
+  padding: 1%;
 }
 .image-principal {
   border-radius: 20px;
 }
 /* 
+
 PICTURE VOYAGE 
+
 */
 .picture-voyage {
   padding: 2% 0%;
