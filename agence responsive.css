@@ -1,6 +1,11 @@
 @media (656px < width < 1334px) {
-  .why-us-paragraphe {
+  .why-us-paragraphe,
+  .question-container {
     width: 80%;
+  }
+  .title-agence {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
@@ -10,8 +15,16 @@
 
 */
 
-@media (width < 657px) {
-  .q-r {
+@media (width < 658px) {
+  .why-us-paragraphe,
+  .question-container {
     width: 80%;
+  }
+  .title-agence {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .why-us-picture {
+    width: 100%;
   }
 }
