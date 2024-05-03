@@ -449,6 +449,9 @@ fieldset {
   height: 700px;
   border-radius: 20px;
   padding: 2%;
+  width: 80%;
+  margin: auto;
+  background-color: #b3b3b380;
 }
 legend {
   display: flex;
@@ -459,6 +462,7 @@ input {
   border-radius: 20px;
   width: 250px;
   height: 50px;
+  background-color: #f7f3f3fd;
 }
 /* 
 
