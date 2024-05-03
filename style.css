@@ -129,16 +129,27 @@ nav {
   font-family: sans-serif;
   font-weight: bold;
   color: white;
+  font-size: 16px;
   width: 170px;
-  height: 30px;
+  height: 50px;
   border-radius: 20px;
   background-color: rgb(255, 132, 31);
 }
 
 /*SECTION 2 - OTHERS TRAVELS*/
 
+.others-travels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 .cards {
-  width: 512px;
+  width: 450px;
   height: 512px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
@@ -148,6 +159,7 @@ nav {
 .imgCards {
   border-radius: 20px 20px 0px 0px;
 }
+
 
 /* 
 
