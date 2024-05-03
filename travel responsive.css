@@ -1,7 +1,4 @@
 @media (656px < width < 1334px) {
-  .why-us-paragraphe {
-    width: 80%;
-  }
 }
 
 /*
@@ -11,7 +8,4 @@
 */
 
 @media (width < 657px) {
-  .q-r {
-    width: 80%;
-  }
 }
