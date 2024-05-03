@@ -14,6 +14,11 @@
   font-family: poppins-regular;
 }
 
+main {
+  background-image: url(/images/BackgroundRightSideHRopa50.png);
+  background-size: contain;
+}
+
 /*START HEADER*/
 /*NavBar*/
 
@@ -102,11 +107,13 @@ nav {
 }
 
 .cards-prim {
+  opacity: 0%;
   display: flex;
   box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
   width: 1300px;
   height: 400px;
   border-radius: 50px;
+  background-color: beige;
 }
 
 .imgCards-prim {
@@ -154,10 +161,21 @@ nav {
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
   margin-bottom: 50px;
+  background-color: beige;
 }
 
 .imgCards {
   border-radius: 20px 20px 0px 0px;
+}
+
+.description-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 15px;
+  text-align: center;
 }
 
 /* 
