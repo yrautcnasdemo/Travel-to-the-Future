@@ -259,21 +259,25 @@ PICTURE VOYAGE
   border-radius: 20px;
 }
 /* 
-AVIS 
+COMMENTAIRE 
 */
-.avis {
+
+.commentaire {
   display: flex;
   flex-direction: column;
-  padding: 0% 20%;
-  gap: 30px;
+  width: 70%;
   margin: auto;
-}
-.avis > p {
-  background-color: #64c6d3;
-  width: 90%;
+  gap: 10px;
   height: auto;
-  padding: 2%;
+}
+.commentaire > p {
+  height: 80%;
   border-radius: 20px;
+  background-color: #64c6d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
 }
 /*
 PRICE AND BUY
