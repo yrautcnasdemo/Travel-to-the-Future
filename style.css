@@ -516,16 +516,19 @@ END CSS AGENCE
 START CSS FORMULAIRE
 
 */
+/* BACKGROUND */
 .background-section-form {
   background-image: url("images/deloreanForm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* OUTSIDE FORM */
 .formulaire {
   display: flex;
   justify-content: center;
   padding: 2% 0%;
 }
+/* INSIDE FORM */
 .title-form {
   padding-top: 2%;
   padding-bottom: 5%;
@@ -558,19 +561,29 @@ fieldset {
   padding: 2%;
   border: none;
 }
+
 textarea {
   border: none;
   border-radius: 20px;
   padding: 2%;
   background-color: #f7f3f3fd;
 }
+/* BUTTON */
 .button-form {
   padding: 2% 5%;
   border-radius: 15px;
   border: none;
   background-color: #e46b6b;
 }
+/* HOVER  */
+.input-form:hover {
+  transform: scale(1.05);
+  transition: all ease 500ms;
+  cursor: pointer;
+}
 .button-form:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
   cursor: pointer;
 }
 /* 
