@@ -31,4 +31,17 @@ start media queries (tablette size)
   .why-us-picture {
     width: 100%;
   }
+  /* 
+  
+  START CONTACT FORM 
+  
+  */
+  .input-form {
+    width: 20px;
+  }
+  /* 
+  
+  END CONTACT FORM 
+  
+  */
 }
