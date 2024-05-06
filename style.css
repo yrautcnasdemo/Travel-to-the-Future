@@ -49,6 +49,8 @@ hr.rounded {
 }
 
 .search-bar {
+  padding-left: 10px;
+  font-family: poppins-regular;
   border: none;
   width: 250px;
   height: 30px;
@@ -321,7 +323,7 @@ nav {
 
 .fieldset-avis {
   margin-top: 30px;
-  height: 200px;
+  height: 230px;
   width: 1000px;
 }
 
