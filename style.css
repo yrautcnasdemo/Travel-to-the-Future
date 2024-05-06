@@ -662,6 +662,10 @@ START CSS TRAVEL
 
 
 */
+.background-travel {
+  background-image: url("images/BackgroundRightSideHRopa50.png");
+  background-size: contain;
+}
 .title-travel {
   padding-top: 3%;
   padding-bottom: 3%;
