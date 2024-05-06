@@ -652,3 +652,34 @@ textarea {
 END CSS FORMULAIRE
 
 */
+.title-travel {
+  text-align: center;
+}
+.section-travel-container {
+  display: flex;
+}
+.cards-travel-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 540px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
+  margin-bottom: 50px;
+  background-color: #fff1e4;
+}
+.imgCards-travel {
+  border-radius: 20px 20px 0px 0px;
+}
+.btn-cards-travel {
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 132, 31);
+}
