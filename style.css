@@ -19,7 +19,7 @@
   font-family: poppins-regular;
 }
 
-main {
+body {
   background-image: url(/images/BackgroundRightSideHRopa50.png);
   background-size: contain;
 }
@@ -43,7 +43,7 @@ hr.rounded {
 /*START HEADER*/
 /*NavBar*/
 
-header {
+.index-header {
   background-image: url(/images/header_image.jpg);
   background-size: cover;
 }
@@ -127,6 +127,10 @@ nav {
   margin-top: 160px;
 }
 
+.title-travels-prim {
+  font-size: 40px;
+}
+
 /*.best-travels {
 }*/
 
@@ -139,15 +143,44 @@ nav {
 }
 
 .relative-price {
+  font-family: poppins-regular;
+  text-align: center;
+  color: rgb(255, 245, 189);
   width: 200px;
-  height: 250px;
-  background-color: orange;
+  height: 230px;
+  background-color: rgba(73, 73, 73, 0.322);
   border-radius: 15px;
   position: absolute;
   right: 20%;
   top: -50px;
-
 }
+
+.price-cards {
+  text-align: center;
+  background-color: rgb(231, 119, 14);
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.span-price {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.divider-price-cards {
+  border-top: 2px solid rgb(255, 227, 176);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bonus-price-cards {
+  margin-top: 15px;
+}
+
+
 
 .little-banner {
   display: flex;
@@ -276,6 +309,37 @@ nav {
   gap: 15px;
   text-align: center;
 }
+
+.review-travelers {
+  margin: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.review-tittle {
+  font-size: 30px;
+}
+
+.fieldset-avis {
+  margin-top: 30px;
+  height: 200px;
+  width: 1000px;
+}
+
+.titre-coms {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.commentary {
+  background-color: rgb(255, 253, 250);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+
+
 /* 
 
 START FOOTER  
@@ -283,9 +347,11 @@ START FOOTER
 */
 footer {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   background-color: #fff1e4;
   padding-top: 3%;
+  padding-bottom: 3%;
   flex-wrap: wrap;
 }
 /* left side */
