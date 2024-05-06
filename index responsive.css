@@ -1,0 +1,13 @@
+/*
+desktop screen size < 1940px
+*/
+
+@media (1337px < width < 1940px) {
+    .main-travelImg3 {
+        display: none;
+    }
+    .little-banner {
+        width: 600px;
+        margin-left: 25%;
+    }
+    }

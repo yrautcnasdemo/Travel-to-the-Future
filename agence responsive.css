@@ -1,3 +1,7 @@
+/*
+start media queries (tablette size)
+*/
+
 @media (656px < width < 1334px) {
   .why-us-paragraphe,
   .question-container {
