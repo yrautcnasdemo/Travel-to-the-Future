@@ -70,6 +70,7 @@ hr.rounded {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 nav {
@@ -649,19 +650,33 @@ textarea {
 }
 /* 
 
+
 END CSS FORMULAIRE
+
+
+*/
+/* 
+
+
+START CSS TRAVEL
+
 
 */
 .title-travel {
+  padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
 }
-.section-travel-container {
+.others-travels-travel {
   display: flex;
-}
-.cards-travel-container {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.cards-travel {
   width: 450px;
   height: 540px;
   border-radius: 20px;
@@ -669,8 +684,21 @@ END CSS FORMULAIRE
   margin-bottom: 50px;
   background-color: #fff1e4;
 }
+
 .imgCards-travel {
   border-radius: 20px 20px 0px 0px;
+}
+.description-cards-travel {
+  font-family: poppins-regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 15px;
+  text-align: center;
 }
 .btn-cards-travel {
   border: none;
@@ -683,3 +711,13 @@ END CSS FORMULAIRE
   border-radius: 20px;
   background-color: rgb(255, 132, 31);
 }
+.btn-cards-travel:hover {
+  cursor: pointer;
+}
+/* 
+
+
+END CSS TRAVEL
+
+
+*/
