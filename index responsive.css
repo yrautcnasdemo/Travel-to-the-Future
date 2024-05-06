@@ -1,13 +1,123 @@
+@media (width > 1940px) {
+    .burger-menu {
+        display: none;
+    }
+}
 /*
 desktop screen size < 1940px
 */
 
-@media (1337px < width < 1940px) {
+@media (1333px < width < 1941px) {
+    .tittle-agence {
+        font-family: back-to-the-future;
+        font-size: 70px;
+        padding-top: 150px;
+        margin-left: 70px;
+        width: 800px;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .title-travels-prim {
+        margin-left: 160px;
+    }
+    .main-travelImg1 {
+        border-radius: 20px 0px 0px 0px;
+    }
+    .main-travelImg2 {
+        border-radius: 0px 20px 0px 0px;
+    }
     .main-travelImg3 {
         display: none;
     }
     .little-banner {
-        width: 600px;
-        margin-left: 25%;
+        background-color: rgba(240, 248, 255, 0);
     }
     }
+
+
+
+/*Tablette size*/
+    @media (656px < width < 1334px) {
+        .nav-list {
+            display: none;
+        }
+        .burger-menu {
+            margin-right: 100px;
+        }
+        .search-bar {
+            margin-left: 100px;
+        }
+
+        .index-header {
+            background-image: url(/images/responsiveheader.png);
+            background-size: cover;
+        }
+
+        .tittle-agence {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .arrowBTTF {
+            display: none;
+        }
+
+        .desc-agence {
+            margin-left: 115px;
+            margin-right: 115px;
+            width: auto;
+            padding-top: 200px;
+            padding-bottom: 50px;
+        }
+
+        .tittle-agence {
+            color: rgba(255, 246, 163, 0.774);
+            padding-top: 50px;
+        }
+
+        .title-travels-prim {
+            margin-left: 160px;
+        }
+        .main-travelImg3, .main-travelImg2 {
+            display: none;
+        }
+        .little-banner {
+            background-color: rgba(240, 248, 255, 0);
+        }
+
+        .flex-day {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .fieldset-avis {
+            width: auto;
+            height: auto;
+        }
+    }
+
+
+    /*Tablette size*/
+    @media (width < 657px) {
+        .nav-list {
+            display: none;
+        }
+        .burger-menu {
+            margin-right: 30px;
+        }
+        .search-bar {
+            margin-left: 30px;
+        }
+
+        .title-travels-prim {
+            margin-left: 160px;
+        }
+        .main-travelImg3, .main-travelImg2 {
+            display: none;
+        }
+        .little-banner {
+            background-color: rgba(240, 248, 255, 0);
+        }
+    }
+
