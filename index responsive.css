@@ -79,6 +79,11 @@ desktop screen size < 1940px
         .title-travels-prim {
             margin-left: 160px;
         }
+
+        .main-travelImg1 {
+            border-radius: 25px;
+        }
+
         .main-travelImg3, .main-travelImg2 {
             display: none;
         }
