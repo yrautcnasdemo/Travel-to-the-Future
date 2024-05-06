@@ -180,8 +180,6 @@ nav {
   margin-top: 15px;
 }
 
-
-
 .little-banner {
   display: flex;
   flex-direction: column;
@@ -336,8 +334,6 @@ nav {
   padding: 15px;
   margin-top: 10px;
 }
-
-
 
 /* 
 
@@ -592,7 +588,8 @@ START CSS FORMULAIRE
 
 */
 /* BACKGROUND */
-.background-section-form {
+
+.contact-header {
   background-image: url("images/deloreanForm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
