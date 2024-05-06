@@ -1,8 +1,15 @@
 /*
+
+
 start media queries (tablette size)
+
+
 */
 
 @media (656px < width < 1334px) {
+  /* 
+  START AGENCE RESPONSIVE
+   */
   .why-us-paragraphe,
   .question-container {
     width: 80%;
@@ -11,15 +18,32 @@ start media queries (tablette size)
     padding-top: 5%;
     padding-bottom: 5%;
   }
+  /* 
+  END AGENCE RESPONSIVE
+   */
+  /* 
+   START FORM RESPONSIVE
+   */
+  textarea {
+    width: 100%;
+  }
+  /* 
+   END FORM RESPONSIVE
+    */
 }
 
 /*
 
+
   start media queries (mobile size)
+
 
 */
 
 @media (width < 658px) {
+  /* 
+  START AGENCE RESPONSIVE
+  */
   .why-us-paragraphe,
   .question-container {
     width: 80%;
@@ -32,16 +56,19 @@ start media queries (tablette size)
     width: 100%;
   }
   /* 
-  
-  START CONTACT FORM 
-  
+  END AGENCE RESPONSIVE
   */
-  .input-form {
-    width: 20px;
+  /* 
+  START CONTACT FORM 
+  */
+  textarea {
+    width: 100%;
+    margin: auto;
+  }
+  .button-form {
+    padding: 4% 8%;
   }
   /* 
-  
   END CONTACT FORM 
-  
   */
 }
