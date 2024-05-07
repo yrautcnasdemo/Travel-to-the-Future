@@ -27,9 +27,9 @@ desktop screen size < 1940px
   .main-travelImg2 {
     border-radius: 0px 20px 0px 0px;
   }
-  .main-travelImg3 {
+  /* .main-travelImg3 {
     display: none;
-  }
+  } */
   .little-banner {
     background-color: rgba(240, 248, 255, 0);
   }
@@ -52,12 +52,12 @@ desktop screen size < 1940px
     background-size: cover;
   }
 
-        .tittle-agence {
-            margin-left: auto;
-            margin-right: auto;
-            color: rgba(255, 246, 163, 0.774);
-            padding-top: 50px;
-        }
+  .tittle-agence {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255, 246, 163, 0.774);
+    padding-top: 50px;
+  }
 
   .arrowBTTF {
     display: none;
@@ -71,11 +71,10 @@ desktop screen size < 1940px
     padding-bottom: 50px;
   }
 
-        .no-bugs {
-            display: block;
-            color: wheat;
-        }
-
+  .no-bugs {
+    display: block;
+    color: wheat;
+  }
 
   .title-travels-prim {
     margin-left: 160px;
@@ -104,137 +103,137 @@ desktop screen size < 1940px
   }
 }
 
-    /*mobile size*/
-    @media (width < 657px) {
-        .nav-list {
-            display: none;
-        }
-        .burger-menu {
-            margin-right: 30px;
-        }
-        .search-bar {
-            margin-left: 30px;
-        }
+/*mobile size*/
+@media (width < 657px) {
+  .nav-list {
+    display: none;
+  }
+  .burger-menu {
+    margin-right: 30px;
+  }
+  .search-bar {
+    margin-left: 30px;
+  }
 
-        .index-header {
-            background-image: url(/images/deloreanEtend.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+  .index-header {
+    background-image: url(/images/deloreanEtend.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-        .intro-header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-        }
-        .tittle-agence {
-            font-family: back-to-the-future;
-            color: wheat;
-            font-size: 30px;
-            padding-top: 30px;
-            margin-left: 0px;
-            width: auto;
-            height: auto;
-        }
+  .intro-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .tittle-agence {
+    font-family: back-to-the-future;
+    color: wheat;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+  }
 
-        .arrowBTTF {
-            display: none;
-        }
+  .arrowBTTF {
+    display: none;
+  }
 
-        .desc-agence {
-            margin-left: 5px;
-            margin-right: 5px;
-            margin-top: 100px;
-            font-family: sans-serif;
-            font-weight: bold;
-            width: auto;
-            height: auto;
-            padding-top: 290px;
-            padding-bottom: 50px;
-            font-size: 20px;
-            color: wheat;
-        }
+  .desc-agence {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    padding-top: 290px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: wheat;
+  }
 
-        .title-travels-prim {
-            text-align: center;
-            margin-bottom: 15px;
-        }
-        .main-travelImg1 {
-            height: 250px;
-            border-radius: 10px;
-        }
-        
-        .relative-price {
-            font-family: poppins-regular;
-            text-align: center;
-            color: rgb(255, 245, 189);
-            width: 100px;
-            height: 0px;
-            background-color: rgba(73, 73, 73, 0.322);
-            border-radius: 15px;
-            position: absolute;
-            right: 30%;
-            top: -10px;
-        }
-        .price-cards {
-            border-radius: 15px;
-            background-color: rgba(231, 119, 14, 0.726);
-        }
+  .title-travels-prim {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .main-travelImg1 {
+    height: 250px;
+    border-radius: 10px;
+  }
 
-        .bonus-price-cards{
-            display: none;
-        }
+  .relative-price {
+    font-family: poppins-regular;
+    text-align: center;
+    color: rgb(255, 245, 189);
+    width: 100px;
+    height: 0px;
+    background-color: rgba(73, 73, 73, 0.322);
+    border-radius: 15px;
+    position: absolute;
+    right: 30%;
+    top: -10px;
+  }
+  .price-cards {
+    border-radius: 15px;
+    background-color: rgba(231, 119, 14, 0.726);
+  }
 
-        .main-travelImg3, .main-travelImg2 {
-            display: none;
-        }
-        .little-banner {
-            display: none;
-        }
+  .bonus-price-cards {
+    display: none;
+  }
 
-        .flex-day {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 60px;
-            margin-top: 60px;
-            margin-left: 30px;
-            margin-right: 30px;
-        }
-        
-        .description-day {
-            width: 300px;
-            font-family: poppins-regular;
-        }
-        .fieldset-avis {
-            width: auto;
-            height: auto;
-        }
+  .main-travelImg3,
+  .main-travelImg2 {
+    display: none;
+  }
+  .little-banner {
+    display: none;
+  }
 
-        .carousel {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            height: 600px;
-            position: relative;
-        }
+  .flex-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 
-        .div-btn-carousel {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+  .description-day {
+    width: 300px;
+    font-family: poppins-regular;
+  }
+  .fieldset-avis {
+    width: auto;
+    height: auto;
+  }
 
-        .cards {
-            margin-bottom: -50px;
-        }
+  .carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    position: relative;
+  }
 
-        .others-travels {
-            display: none;
-        }
-    }
+  .div-btn-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
+  .cards {
+    margin-bottom: -50px;
+  }
+
+  .others-travels {
+    display: none;
+  }
+}
