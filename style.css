@@ -466,8 +466,9 @@ image and paragraphe
   line-height: 28px;
   padding: 1%;
 }
-.image-principal {
+.image-principal-voyage {
   border-radius: 20px;
+  width: 90%;
 }
 /* 
 
@@ -548,6 +549,7 @@ PRICE AND BUY
 
 .review-tittle-travel {
   font-size: 30px;
+  text-align: center;
 }
 
 .fieldset-avis-travel {
