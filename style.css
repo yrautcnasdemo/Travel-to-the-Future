@@ -97,8 +97,8 @@ nav {
   color: #141414e0;
   font-size: 70px;
   padding-top: 150px;
-  margin-left: 70px;
-  width: 800px;
+  margin-left: 115px;
+  width: 600px;
 }
 .arrowBTTF {
   font-family: back-to-the-future;
@@ -110,8 +110,8 @@ nav {
   margin-top: 100px;
   font-family: sans-serif;
   font-weight: bold;
-  width: 570px;
-  padding-bottom: 220px;
+  width: 600px;
+  padding-bottom: 250px;
   font-size: 25px;
   color: wheat;
 }
@@ -146,6 +146,15 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
+}
+
+.main-travelImg1 {
+  border-radius: 20px 0px 0px 0px;
+}
+
+.main-travelImg3 {
+  
+  border-radius: 0px 20px 0px 0px;
 }
 
 .relative-price {
@@ -294,14 +303,14 @@ nav {
 
 .slide {
   position: absolute;
-  opacity: 0;
+  display: none;
   transition: 0.4s ease-in-out;
   top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .slide.active {
-  opacity: 1;
+  display: flex;
 }
 
 .div-btn-carousel {
