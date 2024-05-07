@@ -303,14 +303,15 @@ nav {
 
 .slide {
   position: absolute;
-  display: none;
+  opacity: 0;
   transition: 0.4s ease-in-out;
   top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .slide.active {
-  display: flex;
+  opacity: 1;
+  z-index: 2;
 }
 
 .div-btn-carousel {
