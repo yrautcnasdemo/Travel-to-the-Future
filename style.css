@@ -307,6 +307,10 @@ nav {
 .div-btn-carousel {
   display: none;
 }
+
+.description-size {
+  height: 140px;
+}
 /*END - CAROUSEL*/
 
 .others-travels {
