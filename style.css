@@ -470,6 +470,7 @@ image and paragraphe
   border-radius: 20px;
   width: 90%;
 }
+
 /* 
 
 PICTURE VOYAGE 
@@ -485,6 +486,9 @@ PICTURE VOYAGE
 }
 .picture-voyage > img {
   box-shadow: 0 3px 20px rgba(173, 169, 169, 2);
+  border-radius: 20px;
+}
+.picture-voyage-all {
   border-radius: 20px;
 }
 /* 
@@ -659,7 +663,7 @@ START CSS FORMULAIRE
 
 */
 /* BACKGROUND */
-.background-section-form {
+.contact-header {
   background-image: url("images/deloreanForm.jpg");
   background-repeat: no-repeat;
   background-size: cover;

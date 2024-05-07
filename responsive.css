@@ -1,3 +1,18 @@
+@media (width > 1940px) {
+  .burger-menu {
+    display: none;
+  }
+}
+/*
+desktop screen size < 1940px
+*/
+
+@media (1333px < width < 1941px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
 /*
 
 
@@ -6,7 +21,10 @@ start media queries (tablette size)
 
 */
 
-@media (656px < width < 1334px) {
+@media (656px < width < 1333px) {
+  .nav-list {
+    display: none;
+  }
   /* ----- START VOYAGE RESPONSIVE ------ */
   .voyage-and-text {
     flex-wrap: wrap;
@@ -60,6 +78,9 @@ start media queries (tablette size)
 */
 
 @media (width < 658px) {
+  .nav-list {
+    display: none;
+  }
   /* ----- START VOYAGE RESPONSIVE ------ */
   .voyage-and-text {
     flex-wrap: wrap;
