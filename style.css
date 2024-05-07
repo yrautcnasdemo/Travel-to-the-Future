@@ -12,7 +12,7 @@
   src: url(/font/Aquire/Aquire-BW0ox.otf);
 }
 
-* {
+*, ::before, ::after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -94,6 +94,7 @@ nav {
 }
 .tittle-agence {
   font-family: back-to-the-future;
+  color: #141414e0;
   font-size: 70px;
   padding-top: 150px;
   margin-left: 70px;
@@ -113,6 +114,10 @@ nav {
   padding-bottom: 220px;
   font-size: 25px;
   color: wheat;
+}
+
+.no-bugs {
+  display: none;
 }
 /*END HEADER*/
 
@@ -264,49 +269,45 @@ nav {
 /*SECTION 2 - OTHERS TRAVELS*/
 /*START - CAROUSEL*/
 .carousel {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 800px;
-  width: 800px;
-  position: relative;
+  display: none;
 }
 
 .btn-carousel {
-  display: block;
-  position: absolute;
+  width: 50px;
   background: none;
   border: none;
   outline: none;
-  font-size: 2.6rem;
+  font-size: 40px;
   z-index: 2;
   cursor: pointer;
-  color: rgb(31, 31, 31);
-  transform: translateY(-50%);
-  top: 35%;
+  margin-bottom: 100px;
 }
-
 #prev {
-  left: 5px;
+  left: 10px;
 }
 #next {
-  right: 5px;
+  right: 10px;
 }
-
 .carousel li {
-  list-style-type: none;
+  list-style: none;
 }
 
 .slide {
   position: absolute;
   opacity: 0;
+  transition: 0.4s ease-in-out;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 .slide.active {
   opacity: 1;
 }
 
-/*END CAROUSEL*/
+.div-btn-carousel {
+  display: none;
+}
+/*END - CAROUSEL*/
 
 .others-travels {
   display: flex;
