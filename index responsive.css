@@ -27,9 +27,9 @@ desktop screen size < 1940px
   .main-travelImg2 {
     border-radius: 0px 20px 0px 0px;
   }
-  /* .main-travelImg3 {
+  .main-travelImg3 {
     display: none;
-  } */
+  }
   .little-banner {
     background-color: rgba(240, 248, 255, 0);
   }
