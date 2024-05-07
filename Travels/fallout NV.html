@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel to the Future</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../responsive.css">
 
 </head>
 
@@ -23,41 +23,74 @@
                 <li><a href="/agence.html">Notre agence</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
+            <img class="burger-menu" src="/images/burgermenu.png" width="60px" alt="">
+
         </nav>
     </header>
 
     <section class="background-section">
-        <h1 class="titre-voyage">Fallout NV</h1>
+        <h1 class="titre-voyage">Fallout New Vegas</h1>
         <!-- voyage and picture -->
         <div class="voyage-and-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores, necessitatibus atque</p>
+            <p>Bienvenue à New Vegas, où les vestiges de l'ancien monde se mêlent à la lutte pour la survie dans un
+                désert impitoyable.<br>
+                Explorez les étendues arides du Mojave, où les ruines de la civilisation pré-guerre côtoient les
+                factions en quête de
+                pouvoir.<br> Plongez dans les mystères de la ville lumière, où le jeu et la trahison règnent en maîtres,
+                et
+                découvrez les
+                secrets enfouis sous le sable brûlant. Que vous soyez un habitant des Terres Désolées ou un nouveau venu
+                cherchant
+                fortune, New Vegas vous promet une aventure inoubliable où chaque choix peut changer le destin.<br>
+
+                Et souvenez-vous, si vous trouvez un robot Securitron en train de danser, ne soyez pas surpris, c'est
+                juste une soirée
+                bien animée dans le désert post-apocalyptique !</p>
             <figure>
-                <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image">
+                <img class="image-principal-voyage" src="../images/New Vegas/TravelFallout.png"
+                    alt="guys_who_walk_with_a_dog">
             </figure>
         </div>
         <!-- picture voyage -->
         <figure class="picture-voyage">
-            <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image" width="300px"
-                height="300px">
-            <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image" width="300px"
-                height="300px">
-            <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image" width="300px"
-                height="300px">
-            <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image" width="300px"
-                height="300px">
-            <img src="../images/question_mark.png" alt="question mark a modif avec la vrai image" width="300px"
-                height="300px">
+
+
+            <a target="_blank" href="../images/New Vegas/new_vegas.jpg"><img class="picture-voyage-all"
+                    src="../images/New Vegas/new_vegas.jpg" alt="guys_in_front_of_new_vegas" width="300px"
+                    height="300px"></a>
+
+
+
+            <a target="_blank" href="../images/New Vegas/red_rocket.jpg"><img class="picture-voyage-all"
+                    src="../images/New Vegas/red_rocket_resize.png" alt="red_rocket_car" width="300px"
+                    height="300px"></a>
+
+
+            <a target="_blank" href="../images/New Vegas/travel2.jpg"><img class="picture-voyage-all"
+                    src="../images/New Vegas/travel2_resize.png" alt="man_and_a_dog_who_walk" width="300px"
+                    height="300px"></a>
+
+
+            <a target="_blank" href="../images/New Vegas/power_noobles.png"><img class="picture-voyage-all"
+                    src="../images/New Vegas/power_noodles_resize.png" alt="power_noodles_restaurant" width="300px"
+                    height="300px"></a>
+
+
+            <a target="_blank" href="../images/New Vegas/diamond_city.webp"><img class="picture-voyage-all"
+                    src="../images/New Vegas/diamond_city_resize.png" alt="city" width="300px" height="300px"></a>
+
+
         </figure>
         <!-- avis -->
-        <div class="review-travelers">
-            <h6 class="review-tittle">Vos avis nous intéresse</h6>
+        <div class="review-travelers-travel">
+            <h6 class="review-tittle-travel">Vos avis nous intéresse</h6>
             <div>
-                <fieldset class="fieldset-avis">
+                <fieldset class="fieldset-avis-travel">
                     <legend>Austine Power
                     </legend>
                     <div>
-                        <p class="titre-coms">New vegas : c'est d'la bombe bébé ! ⭐⭐⭐⭐⭐</p>
-                        <p class="commentary">Entre deux combats de geckos et de pillards, j'ai pu admirer
+                        <p class="titre-coms-travel">New vegas : c'est d'la bombe bébé ! ⭐⭐⭐⭐⭐</p>
+                        <p class="commentary-travel">Entre deux combats de geckos et de pillards, j'ai pu admirer
                             l'architecture grandiose des casinos, goûter aux
                             spécialités culinaires locales (un peu périmées, certes) et rencontrer des personnages hauts
                             en couleur. Si vous
@@ -68,11 +101,12 @@
                 </fieldset>
             </div>
             <div>
-                <fieldset class="fieldset-avis">
+                <fieldset class="fieldset-avis-travel">
                     <legend>Entre Mutants et Caféine</legend>
                     <div>
-                        <p class="titre-coms">Survie Post-Apocalyptique : ⭐⭐⭐⭐⭐</p>
-                        <p class="commentary">Mon expérience dans ce monde post-apocalyptique était incroyable ! Chaque
+                        <p class="titre-coms-travel">Survie Post-Apocalyptique : ⭐⭐⭐⭐⭐</p>
+                        <p class="commentary-travel">Mon expérience dans ce monde post-apocalyptique était incroyable !
+                            Chaque
                             jour était une lutte pour la survie, avec des
                             mutants menaçants et des dangers à chaque coin de rue. Mais le plus dur ? Le manque de café
                             ! Chaque quête pour une
@@ -101,7 +135,7 @@
     <footer>
         <!-- footer left -->
         <figure class="footer-left">
-            <img class="logo-middle" src="images/logo_resize.png" alt="logo travels to the future" width="100px"
+            <img class="logo-middle" src="../images/logo_resize.png" alt="logo travels to the future" width="100px"
                 height="115px">
             <figcaption>Travels To The Future</figcaption>
         </figure>

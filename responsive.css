@@ -1,3 +1,18 @@
+@media (width > 1940px) {
+  .burger-menu {
+    display: none;
+  }
+}
+/*
+desktop screen size < 1940px
+*/
+
+@media (1333px < width < 1941px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
 /*
 
 
@@ -6,10 +21,29 @@ start media queries (tablette size)
 
 */
 
-@media (656px < width < 1334px) {
-  /* 
-  START AGENCE RESPONSIVE
-   */
+@media (656px < width < 1333px) {
+  .nav-list {
+    display: none;
+  }
+  /* ----- START VOYAGE RESPONSIVE ------ */
+  .voyage-and-text {
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+  }
+  .voyage-and-text > p {
+    width: 90%;
+    margin: auto;
+    order: 2;
+  }
+  .image-principal-voyage {
+    width: 100%;
+  }
+  .fieldset-avis-travel {
+    width: 90%;
+  }
+  /* ----- END VOYAGE RESPONSIVE ------ */
+  /* ----- START AGENCE RESPONSIVE ------ */
   .why-us-paragraphe,
   .question-container {
     width: 80%;
@@ -18,18 +52,21 @@ start media queries (tablette size)
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  /* 
-  END AGENCE RESPONSIVE
-   */
-  /* 
-   START FORM RESPONSIVE
-   */
+  .review-tittle-travel {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3%;
+  }
+  .commentary-travel {
+    width: auto;
+  }
+  /* ----- END AGENCE RESPONSIVE ------ */
+  /* ----- START FORM RESPONSIVE ------ */
+
   textarea {
     width: 100%;
   }
-  /* 
-   END FORM RESPONSIVE
-    */
+  /* ----- END FORM RESPONSIVE ------ */
 }
 
 /*
@@ -41,9 +78,36 @@ start media queries (tablette size)
 */
 
 @media (width < 658px) {
-  /* 
-  START AGENCE RESPONSIVE
-  */
+  .nav-list {
+    display: none;
+  }
+  /* ----- START VOYAGE RESPONSIVE ------ */
+  .voyage-and-text {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .voyage-and-text > p {
+    width: 90%;
+    margin: auto;
+    order: 2;
+  }
+  .image-principal-voyage {
+    width: 100%;
+  }
+  .review-tittle-travel {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5%;
+  }
+  .fieldset-avis-travel {
+    width: 100%;
+  }
+  .price-and-buy {
+    padding-bottom: 5%;
+    gap: 10px;
+  }
+  /* ----- END VOYAGE RESPONSIVE ------ */
+  /* ----- START AGENCE RESPONSIVE ------ */
   .why-us-paragraphe,
   .question-container {
     width: 80%;
@@ -55,12 +119,8 @@ start media queries (tablette size)
   .why-us-picture {
     width: 100%;
   }
-  /* 
-  END AGENCE RESPONSIVE
-  */
-  /* 
-  START CONTACT FORM 
-  */
+  /* ----- END AGENCE RESPONSIVE ------ */
+  /* ----- START CONTACT FORM ------ */
   textarea {
     width: 100%;
     margin: auto;
@@ -68,7 +128,5 @@ start media queries (tablette size)
   .button-form {
     padding: 4% 8%;
   }
-  /* 
-  END CONTACT FORM 
-  */
+  /* ----- END CONTACT FORM ------ */
 }

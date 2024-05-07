@@ -377,8 +377,6 @@ nav {
   margin-top: 10px;
 }
 
-
-
 /* 
 
 START FOOTER  
@@ -469,9 +467,11 @@ image and paragraphe
   line-height: 28px;
   padding: 1%;
 }
-.image-principal {
+.image-principal-voyage {
   border-radius: 20px;
+  width: 90%;
 }
+
 /* 
 
 PICTURE VOYAGE 
@@ -487,6 +487,9 @@ PICTURE VOYAGE
 }
 .picture-voyage > img {
   box-shadow: 0 3px 20px rgba(173, 169, 169, 2);
+  border-radius: 20px;
+}
+.picture-voyage-all {
   border-radius: 20px;
 }
 /* 
@@ -514,7 +517,7 @@ COMMENTAIRE
 PRICE AND BUY
 */
 .price-and-buy {
-  margin-top: 3%;
+  margin-top: 1%;
   padding: 1%;
   display: flex;
   justify-content: space-evenly;
@@ -541,6 +544,35 @@ PRICE AND BUY
 }
 .buy:hover {
   cursor: pointer;
+}
+/* AVIS */
+.review-travelers-travel {
+  margin: 50px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.review-tittle-travel {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fieldset-avis-travel {
+  margin-top: 30px;
+  width: 60%;
+  height: 30%;
+}
+
+.titre-coms-travel {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.commentary-travel {
+  background-color: rgb(255, 253, 250);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
 }
 /* 
 
@@ -632,7 +664,7 @@ START CSS FORMULAIRE
 
 */
 /* BACKGROUND */
-.background-section-form {
+.contact-header {
   background-image: url("images/deloreanForm.jpg");
   background-repeat: no-repeat;
   background-size: cover;
