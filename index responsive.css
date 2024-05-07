@@ -7,7 +7,7 @@
 desktop screen size < 1940px
 */
 
-@media (1333px < width < 1941px) {
+@media (1333px < width < 1850px) {
   .tittle-agence {
     font-family: back-to-the-future;
     font-size: 70px;
