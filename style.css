@@ -97,7 +97,7 @@ ul li a::before {
   content: "";
   width: 0px;
   height: 5px;
-  background: #2c2c2c70;
+  background: #696161d0;
   position: absolute;
   top: 100%;
   left: 0;
@@ -223,7 +223,7 @@ ul li:hover a::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(204, 35, 255);
+  background-color: rgb(231, 119, 14);
   text-align: center;
   height: 35px;
   border-radius: 0px 0px 5px 5px;
@@ -562,14 +562,18 @@ PRICE AND BUY
   width: auto;
 }
 .price {
-  background-color: #bc6e6e;
+  background-color: rgba(231, 119, 14, 0.664);
+  box-shadow: rgba(226, 146, 25, 0.356) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
   width: 300px;
   height: 100px;
   padding: 10px;
   border-radius: 20px;
 }
 .buy {
-  background-color: #bc6e6e;
+  background-color: #e7770ea9;
+  box-shadow: rgba(226, 146, 25, 0.356) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
   width: 150px;
   height: 60px;
   display: flex;
@@ -835,14 +839,13 @@ START CSS TRAVEL
   width: 170px;
   height: 50px;
   border-radius: 20px;
-  background-color: rgb(255, 132, 31);
+  background-color: #ff841f;
 }
 .btn-cards-travel:hover {
   transform: scale(1.1);
   transition: all ease 500ms;
   cursor: pointer;
 }
-
 /* 
 
 
