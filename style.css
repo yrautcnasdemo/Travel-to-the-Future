@@ -12,7 +12,9 @@
   src: url(/font/Aquire/Aquire-BW0ox.otf);
 }
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -153,7 +155,6 @@ nav {
 }
 
 .main-travelImg3 {
-  
   border-radius: 0px 20px 0px 0px;
 }
 
@@ -305,7 +306,7 @@ nav {
   position: absolute;
   opacity: 0;
   transition: 0.4s ease-in-out;
-  top: 50%; 
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
