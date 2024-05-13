@@ -1,30 +1,50 @@
-@media (width > 1940px) {
+/* 
+
+desktop screen size < 1940px 
+
+*/
+@media (width > 1900px) {
   .burger-menu {
     display: none;
   }
 }
-/*
-desktop screen size < 1940px
-*/
-
-@media (1333px < width < 1941px) {
+@media (1333px < width < 1919px) {
   .burger-menu {
     display: none;
   }
-}
 
-/*
+  /* 
 
-
-start media queries (tablette size)
-
+start media queries (tablette size) 
 
 */
-
-@media (656px < width < 1333px) {
+}
+@media (656px < width < 1334px) {
+  /*----- START BURGER MENU ------*/
   .nav-list {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    top: -5%;
+    background-color: #af9ab350;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    transition: 0.25s;
   }
+  .nav-list li {
+    padding: 25px;
+  }
+  .burger-menu {
+    position: absolute;
+    right: 50px;
+  }
+  .mobile-menu {
+    left: 0%;
+  }
+
+  /*----- END BURGER MENU ------*/
   /* ----- START VOYAGE RESPONSIVE ------ */
   .voyage-and-text {
     flex-wrap: wrap;
@@ -68,19 +88,39 @@ start media queries (tablette size)
   }
   /* ----- END FORM RESPONSIVE ------ */
 }
-
 /*
-
 
   start media queries (mobile size)
 
-
 */
-
 @media (width < 658px) {
+  /*----- START BURGER MENU ------*/
   .nav-list {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    top: -5%;
+    background-color: #af9ab350;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    transition: 0.25s;
   }
+  .nav-list li {
+    padding: 25px;
+  }
+  .burger-menu {
+    position: absolute;
+    right: 10px;
+  }
+  .mobile-menu {
+    left: 0%;
+  }
+  .search-bar {
+    margin-left: 10%;
+  }
+  /*----- END BURGER MENU ------*/
   /* ----- START VOYAGE RESPONSIVE ------ */
   .voyage-and-text {
     flex-wrap: wrap;

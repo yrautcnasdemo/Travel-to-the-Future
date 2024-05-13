@@ -1,22 +1,23 @@
-@media (width > 1920px) {
+/*
+
+DESKTOP SCREEN SIZE < 1940PX
+
+*/
+@media (width > 1900px) {
   .burger-menu {
     display: none;
   }
 }
-/*
-desktop screen size < 1940px
-*/
-
 @media (1333px < width < 1919px) {
+  .burger-menu {
+    display: none;
+  }
   .tittle-agence {
     font-family: back-to-the-future;
     font-size: 70px;
     padding-top: 150px;
     margin-left: 70px;
     width: 800px;
-  }
-  .burger-menu {
-    display: none;
   }
   .title-travels-prim {
     margin-left: 160px;
@@ -34,11 +35,34 @@ desktop screen size < 1940px
     background-color: rgba(240, 248, 255, 0);
   }
 }
+/* 
 
-/*Tablette size*/
+  START MEDIA QUERIES (TABLETTE SIZE) 
+
+*/
 @media (656px < width < 1334px) {
+  /*----- START BURGER MENU ------*/
   .nav-list {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    top: -5%;
+    background-color: #af9ab350;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    transition: 0.25s;
+  }
+  .nav-list li {
+    padding: 25px;
+  }
+  .burger-menu {
+    position: absolute;
+    right: -20px;
+  }
+  .mobile-menu {
+    left: 0%;
   }
   .burger-menu {
     margin-right: 100px;
@@ -46,6 +70,7 @@ desktop screen size < 1940px
   .search-bar {
     margin-left: 100px;
   }
+  /*----- END BURGER MENU ------*/
 
   .index-header {
     background-image: url(/images/responsiveheader.png);
@@ -102,12 +127,38 @@ desktop screen size < 1940px
     height: auto;
   }
 }
+/*
 
-/*mobile size*/
+  START MEDIA QUERIES (MOBILE SIZE)
+
+*/
 @media (width < 657px) {
+  /*----- START BURGER MENU ------*/
+
   .nav-list {
-    display: none;
+    position: absolute;
+    flex-direction: column;
+    left: -100%;
+    top: -5%;
+    background-color: #af9ab350;
+    backdrop-filter: blur(7px);
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    transition: 0.25s;
   }
+  .nav-list li {
+    padding: 25px;
+  }
+  .burger-menu {
+    position: absolute;
+    right: -20px;
+  }
+  .mobile-menu {
+    left: 0%;
+  }
+
+  /*----- END BURGER MENU ------*/
   .burger-menu {
     margin-right: 30px;
   }
@@ -205,7 +256,6 @@ desktop screen size < 1940px
     margin-left: 30px;
     margin-right: 30px;
   }
-
   .description-day {
     width: 300px;
     font-family: poppins-regular;
@@ -214,7 +264,6 @@ desktop screen size < 1940px
     width: auto;
     height: auto;
   }
-
   .carousel {
     display: flex;
     flex-direction: row;
@@ -222,17 +271,14 @@ desktop screen size < 1940px
     height: 600px;
     position: relative;
   }
-
   .div-btn-carousel {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
-
   .cards {
     margin-bottom: -50px;
   }
-
   .others-travels {
     display: none;
   }
