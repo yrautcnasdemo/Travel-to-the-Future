@@ -62,28 +62,8 @@ start media queries (tablette size)
   .fieldset-avis-travel {
     width: 90%;
   }
-  /* ----- START PRICE AND BUY ----- */
-  .container-price-and-buy-before {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-  .border-price,
-  .border-buy {
-    border-radius: 7px;
-    width: 50%;
-  }
-  /* ----- END PRICE AND BUY ----- */
-  /* ----- 
-
-  END VOYAGE RESPONSIVE 
-  
-  ------ */
-  /* ----- 
-  
-  START AGENCE RESPONSIVE 
-  
-  ------ */
+  /* ----- END VOYAGE RESPONSIVE ------ */
+  /* ----- START AGENCE RESPONSIVE ------ */
   .why-us-paragraphe,
   .question-container {
     width: 80%;
@@ -189,18 +169,6 @@ start media queries (tablette size)
   .why-us-picture {
     width: 100%;
   }
-  /* ----- START PRICE AND BUY ----- */
-  .container-price-and-buy-before {
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-  .border-price,
-  .border-buy {
-    border-radius: 7px;
-    width: 80%;
-  }
-  /* ----- END PRICE AND BUY ----- */
   /* ----- END AGENCE RESPONSIVE ------ */
   /* ----- START CONTACT FORM ------ */
   textarea {

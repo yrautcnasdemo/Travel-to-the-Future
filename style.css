@@ -303,7 +303,9 @@ ul li:hover a::before {
   display: none;
 }
 
-.btn-carousel, .btn-carousel1, .btn-carousel2 {
+.btn-carousel,
+.btn-carousel1,
+.btn-carousel2 {
   width: 50px;
   background: none;
   border: none;
@@ -313,17 +315,23 @@ ul li:hover a::before {
   cursor: pointer;
   margin-bottom: 100px;
 }
-#prev, #prev1, #prev2 {
+#prev,
+#prev1,
+#prev2 {
   left: 10px;
 }
-#next, #next1, #next2 {
+#next,
+#next1,
+#next2 {
   right: 10px;
 }
 .carousel li {
   list-style: none;
 }
 
-.slide, .slide1, .slide2 {
+.slide,
+.slide1,
+.slide2 {
   position: absolute;
   opacity: 0;
   transition: 0.4s ease-in-out;
@@ -344,7 +352,9 @@ ul li:hover a::before {
   z-index: 2;
 }
 
-.div-btn-carousel, .div-btn-carousel1, .div-btn-carousel2 {
+.div-btn-carousel,
+.div-btn-carousel1,
+.div-btn-carousel2 {
   display: none;
 }
 
@@ -807,7 +817,7 @@ COMMENTAIRE
 .price-center {
   text-align: center;
 }
-button {
+.buy-button {
   outline: none;
   border: none;
   background: #fa7406;
