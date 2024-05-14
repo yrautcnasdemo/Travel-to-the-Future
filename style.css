@@ -303,7 +303,7 @@ ul li:hover a::before {
   display: none;
 }
 
-.btn-carousel {
+.btn-carousel, .btn-carousel1, .btn-carousel2 {
   width: 50px;
   background: none;
   border: none;
@@ -313,17 +313,17 @@ ul li:hover a::before {
   cursor: pointer;
   margin-bottom: 100px;
 }
-#prev {
+#prev, #prev1, #prev2 {
   left: 10px;
 }
-#next {
+#next, #next1, #next2 {
   right: 10px;
 }
 .carousel li {
   list-style: none;
 }
 
-.slide {
+.slide, .slide1, .slide2 {
   position: absolute;
   opacity: 0;
   transition: 0.4s ease-in-out;
@@ -335,8 +335,16 @@ ul li:hover a::before {
   opacity: 1;
   z-index: 2;
 }
+.slide1.active1 {
+  opacity: 1;
+  z-index: 2;
+}
+.slide2.active2 {
+  opacity: 1;
+  z-index: 2;
+}
 
-.div-btn-carousel {
+.div-btn-carousel, .div-btn-carousel1, .div-btn-carousel2 {
   display: none;
 }
 
@@ -558,6 +566,7 @@ END FOOTER
 
 .description-promotions {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .promo-pics {
@@ -586,6 +595,30 @@ END FOOTER
   margin-top: -90px;
 }
 
+.bg-all-travels-futur {
+  position: absolute;
+  background-color: #ff4646;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: -90px;
+}
+
+.bg-all-travels-DP {
+  position: absolute;
+  background-color: #d446ff;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: -90px;
+}
+
 .title-other-travels {
   margin-left: 50px;
   margin-top: 25px;
@@ -599,7 +632,8 @@ END FOOTER
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
   margin-left: 100px;
-  margin-top: 200px;
+  margin-top: 250px;
+  margin-bottom: 100px;
 }
 
 .imgCards-big {
