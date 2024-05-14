@@ -8,6 +8,10 @@ desktop screen size < 1940px
 */
 
 @media (1333px < width < 1919px) {
+  .burger-menu {
+    display: none;
+  }
+  
   .tittle-agence {
     font-family: back-to-the-future;
     font-size: 70px;
