@@ -1,10 +1,10 @@
-let play = document.getElementById("play");
+// let play = document.getElementById("play");
 
-function playMusic(){
-    let audio = HTMLMediaElement = url("https://youtu.be/T3mCj2u3XSY");
-    audio.play()
-}
-play.addEventListener("click", playMusic);
+// function playMusic(){
+//     let audio = HTMLMediaElement = url("https://youtu.be/T3mCj2u3XSY");
+//     audio.play()
+// }
+// play.addEventListener("click", playMusic);
 
 
 
