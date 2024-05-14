@@ -24,6 +24,7 @@
 .bodyindex {
   background-image: url(/images/BackgroundRightSideHRopa50.png);
   background-size: contain;
+  z-index: -1;
 }
 
 hr.rounded {
@@ -59,7 +60,6 @@ hr.rounded {
   border-radius: 20px;
   margin-left: 150px;
 }
-
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -86,7 +86,29 @@ nav {
   padding-bottom: 20px;
   background-color: #55555523;
 }
-
+.burger-menu {
+  cursor: pointer;
+}
+/*----- START TRY ANIMATION  -----*/
+ul li a {
+  position: relative;
+}
+ul li a::before {
+  content: "";
+  width: 0px;
+  height: 5px;
+  background: #696161d0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+ul li:hover a::before {
+  width: 50%;
+  transform: translateX(100%);
+}
+/* ----- END TRY ANIMATION ----- */
 /*presentation*/
 .intro-header {
   display: flex;
@@ -201,7 +223,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(204, 35, 255);
+  background-color: rgb(231, 119, 14);
   text-align: center;
   height: 35px;
   border-radius: 0px 0px 5px 5px;
@@ -275,7 +297,6 @@ nav {
   border-radius: 20px;
   background-color: rgb(255, 132, 31);
 }
-
 /*SECTION 2 - OTHERS TRAVELS*/
 /*START - CAROUSEL*/
 .carousel {
@@ -735,14 +756,18 @@ PRICE AND BUY
   width: auto;
 }
 .price {
-  background-color: #bc6e6e;
+  background-color: rgba(231, 119, 14, 0.664);
+  box-shadow: rgba(226, 146, 25, 0.356) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
   width: 300px;
   height: 100px;
   padding: 10px;
   border-radius: 20px;
 }
 .buy {
-  background-color: #bc6e6e;
+  background-color: #e7770ea9;
+  box-shadow: rgba(226, 146, 25, 0.356) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
   width: 150px;
   height: 60px;
   display: flex;
@@ -752,6 +777,8 @@ PRICE AND BUY
   margin-top: 1.2%;
 }
 .buy:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
   cursor: pointer;
 }
 /* AVIS */
@@ -1006,9 +1033,11 @@ START CSS TRAVEL
   width: 170px;
   height: 50px;
   border-radius: 20px;
-  background-color: rgb(255, 132, 31);
+  background-color: #ff841f;
 }
 .btn-cards-travel:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
   cursor: pointer;
 }
 /* 
