@@ -147,6 +147,16 @@ start media queries (tablette size)
     gap: 10px;
   }
   /* ----- END VOYAGE RESPONSIVE ------ */
+  /* ----- START CAROUSEL TRAVEL CITY ----- */
+  .picture-voyage {
+    display: none;
+  }
+  .picture-voyage-all-carousel {
+    border-radius: 20px;
+    width: 450px;
+    height: 450px;
+  }
+  /* ----- END CAROUSEL TRAVEL CITY ----- */
   /* ----- START AGENCE RESPONSIVE ------ */
   .why-us-paragraphe,
   .question-container {
@@ -171,7 +181,6 @@ start media queries (tablette size)
   /* ----- END CONTACT FORM ------ */
 }
 
-
 /*START TRAVELS INDEX RESPONSIVE*/
 /*Small DEKSTOP*/
 @media (1230px < width < 1625px) {
@@ -184,10 +193,10 @@ start media queries (tablette size)
     margin-left: 100px;
     margin-top: 200px;
   }
-  
+
   .item-1 {
-    grid-column: 1 / 3 ;
-    grid-row: 1 / 3 ;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
   }
 
   .base-area {
@@ -195,52 +204,49 @@ start media queries (tablette size)
   }
 }
 
-
 /*TABLETTE*/
 @media (656px < width < 1230px) {
   .all-travels {
     margin-left: 0px;
-}
+  }
 
   .imgCards-big {
     border-radius: 0px 20px 0px 0px;
     width: 650px;
-}
+  }
 
   .cards-travels-big {
     width: 650px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
     background-color: #fff1e4;
-}
+  }
 
-.bg-all-travels {
-  border-radius: 0px 20px 20px 0px;
-}
+  .bg-all-travels {
+    border-radius: 0px 20px 20px 0px;
+  }
 
-.all-travels {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 15px;
-}
+  .all-travels {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+  }
 
-.base-area {
-  width: 656px;
-}
+  .base-area {
+    width: 656px;
+  }
 
-.cards-travels-small {
-  width: 315px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
-  background-color: #fff1e4;
-  padding-bottom: 15px;
+  .cards-travels-small {
+    width: 315px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(99, 99, 99, 0.267);
+    background-color: #fff1e4;
+    padding-bottom: 15px;
+  }
+  .imgCards-SM {
+    width: 315px;
+  }
 }
-.imgCards-SM {
-  width: 315px;
-}
-
-}
-
 
 /*PHONE*/
 @media (width < 658px) {
