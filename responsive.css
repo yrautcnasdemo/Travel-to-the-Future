@@ -63,6 +63,18 @@ start media queries (tablette size)
     width: 90%;
   }
   /* ----- END VOYAGE RESPONSIVE ------ */
+  /* ----- START PRICE AND BUY ----- */
+  .container-price-and-buy-before {
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+  }
+  .border-price,
+  .border-buy {
+    border-radius: 20px;
+    width: 75%;
+  }
+  /* ----- END PRICE AND BUY ----- */
   /* ----- START AGENCE RESPONSIVE ------ */
   .why-us-paragraphe,
   .question-container {
@@ -169,6 +181,18 @@ start media queries (tablette size)
   .why-us-picture {
     width: 100%;
   }
+  /* ----- START PRICE AND BUY ----- */
+  .container-price-and-buy-before {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .border-price,
+  .border-buy {
+    border-radius: 20px;
+    width: 80%;
+  }
+  /* ----- END PRICE AND BUY ----- */
   /* ----- END AGENCE RESPONSIVE ------ */
   /* ----- START CONTACT FORM ------ */
   textarea {
@@ -385,6 +409,9 @@ start media queries (tablette size)
     color: white;
     font-weight: bold;
     margin-top: -20px;
+  }
+  .review-travelers-travel {
+    margin-top: -50px;
   }
 }
 
