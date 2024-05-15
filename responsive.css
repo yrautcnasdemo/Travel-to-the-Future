@@ -51,11 +51,16 @@ start media queries (tablette size)
     gap: 20px;
     display: flex;
   }
-  .voyage-and-text > p {
+  .background-paragraphe-travel {
     width: 90%;
     margin: auto;
     order: 2;
   }
+  /* .background-paragraphe-travel > p {
+    width: 90%;
+    margin: auto;
+    order: 2;
+  } */
   .image-principal-voyage {
     width: 100%;
   }
@@ -131,6 +136,7 @@ start media queries (tablette size)
   }
   .search-bar {
     margin-left: 10%;
+    width: 50%;
   }
   /*----- END BURGER MENU ------*/
   /* ----- START VOYAGE RESPONSIVE ------ */
@@ -138,7 +144,7 @@ start media queries (tablette size)
     flex-wrap: wrap;
     gap: 20px;
   }
-  .voyage-and-text > p {
+  .background-paragraphe-travel {
     width: 90%;
     margin: auto;
     order: 2;
