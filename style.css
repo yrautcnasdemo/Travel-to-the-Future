@@ -238,7 +238,6 @@ ul li:hover a::before {
   gap: 60px;
   margin-top: 60px;
 }
-
 .description-day {
   width: 400px;
   font-family: poppins-regular;
@@ -249,7 +248,7 @@ ul li:hover a::before {
   font-size: 25px;
   background-color: rgb(207, 207, 207);
   border-radius: 5px;
-  color: orangered;
+  color: #ff841f;
 }
 
 .btn-flex {
@@ -828,12 +827,16 @@ COMMENTAIRE
 .buy-button {
   outline: none;
   border: none;
-  background: #fa7406;
+  background: #ff841f;
   color: #ffffff;
   width: 250px;
   height: 50px;
   border-radius: 20px;
   cursor: pointer;
+}
+.buy-button:hover {
+  transform: scale(1.05);
+  transition: all ease 500ms;
 }
 /* ----- END PRICE AND BUY ----- */
 /* AVIS */
@@ -1010,7 +1013,7 @@ textarea {
   padding: 2% 5%;
   border-radius: 15px;
   border: none;
-  background-color: #e46b6b;
+  background-color: #ff841f;
 }
 /* HOVER  */
 .input-form:hover {
