@@ -602,11 +602,12 @@ END FOOTER
   color: white;
   font-weight: bold;
   margin-top: -90px;
+  margin-left: 50px;
 }
 
 .bg-all-travels-futur {
   position: absolute;
-  background-color: #ff4646;
+  background-color: #ff2020;
   width: 600px;
   height: 600px;
   border-radius: 20px 20px 20px 20px;
@@ -614,11 +615,12 @@ END FOOTER
   color: white;
   font-weight: bold;
   margin-top: -90px;
+  margin-left: 50px;
 }
 
 .bg-all-travels-DP {
   position: absolute;
-  background-color: #d446ff;
+  background-color: #340044;
   width: 600px;
   height: 600px;
   border-radius: 20px 20px 20px 20px;
@@ -626,12 +628,17 @@ END FOOTER
   color: white;
   font-weight: bold;
   margin-top: -90px;
+  margin-left: 50px;
 }
 
 .title-other-travels {
   margin-left: 50px;
   margin-top: 25px;
   border-bottom: 3px solid white;
+}
+
+.small-title {
+  font-size: 20px;
 }
 
 .all-travels {
@@ -690,7 +697,8 @@ END FOOTER
 }
 
 .description-size-travels {
-  height: 80px;
+  height: 165px;
+  margin-top: 10px;
 }
 
 /*
@@ -1092,7 +1100,24 @@ START CSS TRAVEL
   border-radius: 20px;
   background-color: #ff841f;
 }
+.btn-cards-travel2 {
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #ff841f;
+  margin-bottom: 20px;
+}
 .btn-cards-travel:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms;
+  cursor: pointer;
+}
+.btn-cards-travel2:hover {
   transform: scale(1.1);
   transition: all ease 500ms;
   cursor: pointer;
