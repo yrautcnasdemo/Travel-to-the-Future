@@ -11,7 +11,7 @@ desktop screen size < 1940px
   .burger-menu {
     display: none;
   }
-  
+
   .tittle-agence {
     font-family: back-to-the-future;
     font-size: 70px;
@@ -164,6 +164,7 @@ desktop screen size < 1940px
   }
   .search-bar {
     margin-left: 30px;
+    width: 50%;
   }
 
   .index-header {

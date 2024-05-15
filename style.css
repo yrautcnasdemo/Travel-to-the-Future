@@ -97,7 +97,7 @@ ul li a::before {
   content: "";
   width: 0px;
   height: 5px;
-  background: #696161d0;
+  background: #000000d0;
   position: absolute;
   top: 100%;
   left: 0;
@@ -223,7 +223,7 @@ ul li:hover a::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(231, 119, 14);
+  background-color: #e7770e;
   text-align: center;
   height: 35px;
   border-radius: 0px 0px 5px 5px;

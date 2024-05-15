@@ -136,6 +136,7 @@ start media queries (tablette size)
   }
   .search-bar {
     margin-left: 10%;
+    width: 50%;
   }
   /*----- END BURGER MENU ------*/
   /* ----- START VOYAGE RESPONSIVE ------ */
