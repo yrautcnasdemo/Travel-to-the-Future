@@ -721,9 +721,16 @@ image and paragraphe
   padding: 0% 2%;
   width: 100%;
 }
-.voyage-and-text > p {
+.background-paragraphe-travel {
+  background-color: #b3b3b380;
+  display: flex;
+  gap: 5%;
   width: 50%;
-  background-color: rgba(100, 144, 211, 0.288);
+  border-radius: 20px;
+  padding: 2%;
+}
+.background-paragraphe-travel > p {
+  background-color: white;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -732,6 +739,8 @@ image and paragraphe
   font-size: 1.2rem;
   line-height: 28px;
   padding: 1%;
+  width: 90%;
+  margin: auto;
 }
 .image-principal-voyage {
   border-radius: 20px;
@@ -791,8 +800,6 @@ COMMENTAIRE
   justify-content: space-around;
 }
 .container-price-and-buy {
-  /* background-color: #967887; */
-  /* background-color: rgb(255, 253, 250); */
   background-color: #b3b3b380;
   color: #000000;
   width: 57%;
