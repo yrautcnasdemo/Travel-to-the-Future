@@ -70,6 +70,10 @@ desktop screen size < 1940px
   .search-bar {
     margin-left: 100px;
   }
+  footer {
+    flex-direction: column;
+    gap: 30px;
+  }
   /*----- END BURGER MENU ------*/
 
   .index-header {
@@ -281,5 +285,9 @@ desktop screen size < 1940px
   }
   .others-travels {
     display: none;
+  }
+  footer {
+    flex-direction: column;
+    gap: 30px;
   }
 }

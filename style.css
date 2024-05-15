@@ -43,6 +43,7 @@ hr.rounded {
   margin-bottom: 25px;
 }
 
+
 /*START HEADER*/
 /*NavBar*/
 
@@ -991,6 +992,7 @@ fieldset {
   margin: auto;
   background-color: #b3b3b380;
   border: none;
+  backdrop-filter: blur(5px);
 }
 
 .input-form {
