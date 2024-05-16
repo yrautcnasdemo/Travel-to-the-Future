@@ -3,6 +3,13 @@
     display: none;
   }
 }
+
+@media (width < 1800px) {
+  .smokedbox{
+    display: none;
+  }
+}
+
 /*
 desktop screen size < 1940px
 */
@@ -11,6 +18,8 @@ desktop screen size < 1940px
   .burger-menu {
     display: none;
   }
+
+
 
   .tittle-agence {
     font-family: back-to-the-future;
