@@ -5,7 +5,7 @@
 }
 
 @media (width < 1800px) {
-  .smokedbox{
+  .smokedbox {
     display: none;
   }
 }
@@ -18,8 +18,6 @@ desktop screen size < 1940px
   .burger-menu {
     display: none;
   }
-
-
 
   .tittle-agence {
     font-family: back-to-the-future;
@@ -156,7 +154,7 @@ desktop screen size < 1940px
     background-color: #af9ab350;
     backdrop-filter: blur(7px);
     width: 100%;
-    height: 65%;
+    height: 85%;
     text-align: center;
     transition: 0.25s;
   }
